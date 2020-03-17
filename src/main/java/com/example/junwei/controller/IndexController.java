@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RequestParam;
  *         model.addAttribute("name",name);
  *         return "index";
  *     }
- *
  */
 @Controller
 public class IndexController {
