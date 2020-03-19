@@ -40,7 +40,7 @@ public class User {
         this.token = token;
     }
 
-    public Long getGmtCreate(long l) {
+    public Long getGmtCreate() {
         return gmtCreate;
     }
 
@@ -54,11 +54,5 @@ public class User {
 
     public void setGmtModified(Long gmtModified) {
         this.gmtModified = gmtModified;
-    }
-
-
-    public Long getGmtCreate() {
-
-        return gmtCreate;
     }
 }
