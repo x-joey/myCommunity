@@ -27,6 +27,7 @@ public class IndexController {
 
     @GetMapping("/")
     public String index(HttpServletRequest request){
+        //有个bug，若用户清空cookie再登录呢,需要加一个cookie判断
         Cookie[] cookies =  request.getCookies();
         for (Cookie cookie :cookies){
             if (cookie.getName().equals("token")){

@@ -8,3 +8,18 @@
 [mysql菜鸟教程](https://www.runoob.com/mysql/mysql-update-query.html)
 
 [mybatis](http://mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/)
+
+```SQL
+CREATE CACHED TABLE USER(
+    "ID" INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    "ACCOUNT_ID" VARCHAR(100),
+    "NAME" VARCHAR(50),
+    "TOKEN" CHAR(36),
+    "GMT_CREATE" BIGINT,
+    "GMT_MODIFIED" BIGINT
+);
+
+
+```
+
+
