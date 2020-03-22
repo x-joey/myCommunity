@@ -5,6 +5,8 @@
 
 - flyway命令 mvn flyway:migrate
 
+[lombok](https://projectlombok.org/setup/maven)
+
 ## 资料
 [Github OAuth 文档](https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/)
 
